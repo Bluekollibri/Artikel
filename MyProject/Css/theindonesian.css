@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Oswald&family=Philosopher&family=Sarabun&family=Yanone+Kaffeesatz&display=swap');
 body {
   min-height: 2000px;
 }
 .header {
-  background: rgba(0, 0, 0, 0.7) url(../the\ indonesian.png);
+  background: rgba(0, 0, 0, 0.7) url(../MyProject/Src/theindonesian.png);
   background-blend-mode: darken;
   height: 100vh;
   background-repeat: no-repeat;
@@ -12,7 +13,19 @@ body {
 }
 .navbar-brand,
 .nav-link {
-  color: blue;
+  color: red;
+}
+.btn.btn-primary{
+  background-color: red;
+  border: red;
+}
+.btn.btn-primary:hover{
+  background-color: white;
+  color: red;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: white;
 }
 .navbar-brand {
   font-family: 'Fredoka One', cursive;
@@ -30,7 +43,7 @@ body {
 #about {
   min-height: 120vh;
   color: red;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Sarabun', sans-serif;
   background-color: black;
 }
 #about p {
@@ -56,7 +69,10 @@ img {
   min-height: 300vh;
   background-color: red;
   color: white;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Sarabun', sans-serif;
+}
+.about .proccess .video  p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 code {
   max-width: 1400px;
@@ -72,7 +88,7 @@ pre {
   min-height: 150vh;
   background-color: black;
   color: red;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Sarabun', sans-serif;
 }
 #c2 {
   max-width: 1400px;
