@@ -12,7 +12,19 @@ body {
 }
 .navbar-brand,
 .nav-link {
-  color: blue;
+  color: red;
+}
+.btn.btn-primary{
+  background-color: red;
+  border: red;
+}
+.btn.btn-primary:hover{
+  background-color: white;
+  color: red;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: white;
 }
 .navbar-brand {
   font-family: 'Fredoka One', cursive;
